@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: github-final:1.0
-          imagePullPolicy: IfNotPresent
+          image: docker.io/library/github-final:1.0
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
           env:
